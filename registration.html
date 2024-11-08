@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body style="background-image: url('iiser2/slider.png');
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;">
+    <div class="regis-box" style=" background-color:rgb(224, 255, 255, 0.6) ;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+max-width: 500px;
+width: 100%;">
+        <div class="container mt-5">
+            <h2 style="color: #940000; text-align: center; margin-bottom: 20px; ">Registration Form</h2>
+            <form action="Thankyou.html">
+                <div class="form-group" style="border-radius: 5px;">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="text" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                </div>
+                <div class="form-group">
+                    <label for="course">Course:</label>
+                    <select class="form-control" id="course" required>
+                        <option value="">Select your course</option>
+                        <option value="bsc">B.Sc</option>
+                        <option value="msc">M.Sc</option>
+                        <option value="btech">B.Tech</option>
+                        <option value="mtech">M.Tech</option>
+                        <option value="mba">MBA</option>
+                        <option value="mca">MCA</option>
+                        <option value="mtech">M.Tech</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-info" style="width: 100%; border-radius: 5px; ">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
